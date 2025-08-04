@@ -1,0 +1,11 @@
+[
+  {
+    "description": "4PDA Redirect",
+    "exampleUrl": "https://www.4pda.ru/forum",
+    "includePattern": "^https?://(www\\.)?4pda\\.ru/(.*)",
+    "redirectUrl": "https://4pda.to/$2",
+    "patternType": "REGEX",
+    "exampleResult": "https://4pda.to/forum",
+    "disabled": false
+  }
+]
